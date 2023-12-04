@@ -7,7 +7,6 @@ console.log(`Welcome to Pizza House, our toppings are ${topping}`);
 }
 }
 
-//greetCustomer();
 
 
 
@@ -26,22 +25,14 @@ return pizza = {
   crust: "stuffed",
   toppings: [...pizzaToppings],
 }
-preparePizza([large, stuffed, pizza]);
-}
-
-return pizza = {
-  size: "large",
-  crust: "stuffed",
-  toppings: [...pizzaToppings]
 }
 
   function servePizza(pizza) {
     console.log(`Order up! Here's your large stuffed crust pizza with ${topping}, Enjoy!`)
-    return pizza = {
-      size: "large",
-      crust: "stuffed",
-      toppings: [...pizzaToppings],
-    }
-    servePizza(pizza);
+  }
+  return pizza = {
+    size: "large",
+    crust: "stuffed",
+    toppings: [...pizzaToppings],
   }
 
