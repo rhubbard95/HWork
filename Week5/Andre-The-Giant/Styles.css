@@ -1,0 +1,55 @@
+html {
+  background-color: antiquewhite;
+}
+
+body {
+  text-align: center;
+  font-size: 18px;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+#introPic {
+width: 50%;
+height: 50%;
+}
+
+#bio {
+  padding: 2px;
+  list-style-position:inside;
+
+}
+
+img {
+  height: 100%;
+  max-width: 50%;
+}
+
+div {
+  border: 2px solid burlywood;
+  margin: 10px;
+}
+
+#achievements {
+  list-style-position: inside;
+}
+
+
+#bio > li {
+  padding: 2px;
+
+}
+
+#pro {
+  width: auto;
+}
+
+@media (max-width:375px) {
+
+}
+
+
+
+

@@ -23,6 +23,7 @@ function getPizzaOrder(size, crust, ...pizzaToppings) {
 
   return [size, crust, pizzaToppings];
 }
+
 getPizzaOrder("large", "stuffed", "pepperoni", "sausage");
 
 function preparePizza([size, crust, pizzaToppings]) {
