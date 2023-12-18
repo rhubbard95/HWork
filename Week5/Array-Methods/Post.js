@@ -1,3 +1,4 @@
+const info =
 [
   {
     "userId": 1,
@@ -301,19 +302,20 @@
   }
 ]
 
-let user5 = [
-  {id:"41", title:"non est facere", body:"molestias id nostrum\nexcepturi molestiae dolore omnis repellendus quaerat saepe\nconsectetur iste quaerat tenetur asperiores accusamus ex ut\nnam quidem est ducimus sunt debitis saepe"},
-  {id:"42", title:"commodi ullam sint et excepturi error explicabo praesentium voluptas", body:"odio fugit voluptatum ducimus earum autem est incidunt voluptatem\nodit reiciendis aliquam sunt sequi nulla dolorem\nnon facere repellendus voluptates quia\nratione harum vitae ut"},
-  {id:"43", title:"eligendi iste nostrum consequuntur adipisci praesentium sit beatae perferendis", body:"similique fugit est\nillum et dolorum harum et voluptate eaque quidem\nexercitationem quos nam commodi possimus cum odio nihil nulla\ndolorum exercitationem magnam ex et a et distinctio debitis"},
-  {id:"44", title:"optio dolor molestias sit", body:"temporibus est consectetur dolore\net libero debitis vel velit laboriosam quia\nipsum quibusdam qui itaque fuga rem aut\nea et iure quam sed maxime ut distinctio quae"},
-  {id:"45", title:"ut numquam possimus omnis eius suscipit laudantium iure", body:"temporibus est consectetur dolore\net libero debitis vel velit laboriosam quia\nipsum quibusdam qui itaque fuga rem aut\nea et iure quam sed maxime ut distinctio quae"},
-  {id:"46", title:"aut quo modi neque nostrum ducimus", body:"voluptatem quisquam iste\nvoluptatibus natus officiis facilis dolorem\nquis quas ipsam\nvel et voluptatum in aliquid"},
-  {id:"47", title:"quibusdam cumque rem aut deserunt", body:"voluptatem assumenda ut qui ut cupiditate aut impedit veniam\noccaecati nemo illum voluptatem laudantium\nmolestiae beatae rerum ea iure soluta nostrum\neligendi et voluptate"},
-  {id:"48", title:"ut voluptatem illum ea doloribus itaque eos", body:"voluptates quo voluptatem facilis iure occaecati\nvel assumenda rerum officia et\nillum perspiciatis ab deleniti\nlaudantium repellat ad ut et autem reprehenderit"},
-  {id:"49", title:"laborum non sunt aut ut assumenda perspiciatis voluptas", body:"inventore ab sint\nnatus fugit id nulla sequi architecto nihil quaerat\neos tenetur in in eum veritatis non\nquibusdam officiis aspernatur cumque aut commodi aut"},
-  {id:"50", title:"repellendus qui recusandae incidunt voluptates tenetur qui omnis exercitationem", body:"error suscipit maxime adipisci consequuntur recusandae\nvoluptas eligendi et est et voluptates\nquia distinctio ab amet quaerat molestiae et vitae\nadipisci impedit sequi nesciunt quis consectetur"},
-]
 
-user5.map((title, body,)=> {
-  return title + body;
-})
+
+const data = info.filter(info => info.userId === 5);
+console.log(data);
+
+
+info.forEach(info => console.log(info));
+
+const pairs = [];
+
+info.forEach((input) => {
+  let infoTitle = input.title;
+  let infoBody = input.body;
+
+
+pairs.push([infoTitle, infoBody]);
+});

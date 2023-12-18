@@ -1,3 +1,5 @@
+const things =
+
 [
   {
     "id": 1,
@@ -231,15 +233,17 @@
   }
 ]
 
+//create and print a list of phone numbers
+//create and print a list of website and email pairs (pair them in a string, array, or object)
+
+things.forEach(user => console.log(user.phone));
+
+const websiteEmail =[];
+things.forEach(user => websiteEmail.push(user.website + ":" + user.email));
 
 
-phone.foreach(phone => console.log(phone));
+console.log(websiteEmail);
 
-const data = [];
-
-data.forEach(data =>data.push(data.website + data.email));
-
-console.log(data);
 
 
 

@@ -1,3 +1,4 @@
+const stuff =
 [
   {
     "userId": 1,
@@ -301,19 +302,11 @@
   }
 ]
 
-let todo = [
-  {id: "41", completed:"false"},
-  {id: "42", completed:"false"},
-  {id: "43", completed:"true"},
-  {id: "44", completed:"true"},
-  {id: "45", completed:"false"},
-  {id: "46", completed:"false"},
-  {id: "47", completed:"false"},
-  {id: "48", completed:"false"},
-  {id: "49", completed:"false"},
-  {id: "50", completed:"true"},
-];
+//create a list of user 3's to-dos
+//then find the number of user 3's incomplete tasks
 
-let incomplete= todo.filter(function(todo) {
-  return todo.id.completed == "false";
-})
+
+let todo = stuff.filter(stuff => stuff.userId === 3);
+console.log(todo);
+
+let incomplete= todo.filter(todo=> todo.completed ===false);
