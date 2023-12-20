@@ -310,3 +310,5 @@ let todo = stuff.filter(stuff => stuff.userId === 3);
 console.log(todo);
 
 let incomplete= todo.filter(todo=> todo.completed ===false);
+
+console.log(incomplete);

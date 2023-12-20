@@ -1,3 +1,5 @@
+const { title } = require("process");
+
 const info =
 [
   {
@@ -302,6 +304,7 @@ const info =
   }
 ]
 
+//create a list of user 5's posts
 
 
 const data = info.filter(info => info.userId === 5);
@@ -309,6 +312,8 @@ console.log(data);
 
 
 info.forEach(info => console.log(info));
+
+//then, create a list of title and body pairs
 
 const pairs = [];
 
@@ -319,3 +324,5 @@ info.forEach((input) => {
 
 pairs.push([infoTitle, infoBody]);
 });
+
+console.log(pairs);
